@@ -1,0 +1,36 @@
+.chatbot-container {
+  text-align: left;
+}
+
+.chatbot-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.chatbot-box {
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 6px;
+  height: 150px;
+  overflow-y: auto;
+  margin-bottom: 10px;
+  background: #f9f9f9;
+}
+
+.chatbot-input {
+  display: flex;
+  gap: 10px;
+}
+
+.chatbot-input input {
+  flex: 1;
+  padding: 8px;
+}
+
+.chatbot-input button {
+  background: #3498db;
+  border: none;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 5px;
+}

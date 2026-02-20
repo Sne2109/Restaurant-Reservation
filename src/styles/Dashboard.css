@@ -1,0 +1,24 @@
+.dashboard-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #eef2f7, #d9e4f5);
+}
+
+.dashboard-content {
+  padding-top: 40px;
+  text-align: center;
+}
+
+.dashboard-title {
+  font-size: 30px;
+  margin-bottom: 30px;
+  color: #2c3e50;
+}
+
+.dashboard-card {
+  background: white;
+  padding: 25px;
+  margin: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  width: 500px;
+}

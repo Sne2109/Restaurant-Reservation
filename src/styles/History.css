@@ -1,0 +1,66 @@
+/* Main container */
+.history-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f0f4f8, #e4ecf7);
+  padding: 30px;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* Title */
+.history-title {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 30px;
+}
+
+/* History list */
+.history-list {
+  max-width: 700px;
+  margin: auto;
+}
+
+/* Individual history card */
+.history-card {
+  background: white;
+  padding: 18px 22px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Hover effect */
+.history-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.12);
+}
+
+/* Text styles */
+.history-date {
+  font-weight: 600;
+  color: #34495e;
+}
+
+.history-time {
+  color: #2980b9;
+  margin-left: 10px;
+}
+
+.history-guests {
+  float: right;
+  background: #3498db;
+  color: white;
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+/* Empty message */
+.no-history {
+  text-align: center;
+  color: #7f8c8d;
+  font-size: 18px;
+  margin-top: 50px;
+}
